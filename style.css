@@ -1,0 +1,38 @@
+:root{
+    --bleu: #24309A;
+    --grey: #D9D9D9;
+    --dark-grey: #9C9999;
+    --cl-bleu: #5061F9;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #c1e0ec;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: var(--grey);
+}
+.container .left_side{
+    position: relative;
+    background: var(--bleu);
+    padding: 40px;
+
+}
+.container .right_side{
+    position: relative;
+    background: var(--grey);
+    padding: ;
+}
