@@ -1,24 +1,29 @@
-:root{
+/* declaration des couleur don j'aurais besoin */
+:root {
     --bleu: #24309A;
     --grey: #D9D9D9;
     --dark-grey: #9C9999;
     --cl-bleu: #5061F9;
-
 }
 
-*{
+/*fin declaration des couleur don j'aurais besoin */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
+
+/* fond de la page */
+body {
     background-color: #c1e0ec;
     display: flex;
     justify-content: center;
     min-height: 100vh;
 }
-.container{
+
+/*fin du fond de la page */
+.container {
     position: relative;
     width: 100%;
     margin: 50px;
@@ -27,15 +32,44 @@ body{
     background: var(--grey);
     display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0,0.1);
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
-.container .left_side{
+
+.container .left_side {
     position: relative;
     background: var(--bleu);
     padding: 40px;
 
 }
-.container .right_side{
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+
+}
+
+.profileText .imgBx {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.container .right_side {
     position: relative;
     background: var(--grey);
     padding: ;
