@@ -53,12 +53,12 @@ body {
 }
 
 .profileText .imgBx {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    overflow: hidden;
 }
 
+/*  */
 .profileText .imgBx img {
     position: absolute;
     top: 0;
@@ -69,8 +69,57 @@ body {
 
 }
 
+/*  */
+/*  */
+.profileText h2 {
+    color: var(--bleu);
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profileText h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactInfo {
+    padding-top: 40px;
+
+}
+
+.title {
+    color: var(--grey);
+    text-transform: uppercase;
+    font-weight: 1px;
+
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.contactInfo ul li span {
+    color: var(--grey);
+    font-weight: 300;
+}
+
+/*  */
+/*  */
 .container .right_side {
     position: relative;
     background: var(--grey);
-    padding: ;
+    padding: 40px;
 }
+
+/*  */
